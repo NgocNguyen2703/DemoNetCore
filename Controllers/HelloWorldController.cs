@@ -9,11 +9,18 @@ namespace NETCORE.Controllers
         // GET: /HelloWorld/
 
         public IActionResult Index()
-    {
+        {
 
-    return View ();
-    
-    }
-        
+        return View ();
+
+        }
+
+    public IActionResult Welcome(string name, int numTimes = 1)
+        {
+            ViewData["Message"] = "Hello " + name;
+            ViewData["NumTimes"] = numTimes;
+
+            return View();
+        }
     }
 }
