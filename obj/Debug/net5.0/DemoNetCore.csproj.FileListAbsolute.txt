@@ -38,3 +38,4 @@ C:\NetCore\DemoNetCore\obj\Debug\net5.0\ref\DemoNetCore.dll
 C:\NetCore\DemoNetCore\obj\Debug\net5.0\DemoNetCore.pdb
 C:\NetCore\DemoNetCore\obj\Debug\net5.0\DemoNetCore.genruntimeconfig.cache
 C:\NetCore\DemoNetCore\obj\Debug\net5.0\DemoNetCore.csproj.CopyComplete
+C:\NetCore\DemoNetCore\obj\Debug\net5.0\Razor\Views\HelloWorld\Index.cshtml.g.cs

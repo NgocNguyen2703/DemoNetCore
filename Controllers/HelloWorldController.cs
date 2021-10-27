@@ -8,17 +8,12 @@ namespace NETCORE.Controllers
         // 
         // GET: /HelloWorld/
 
-        public string Index()
-        {
-            return "This is my default action...";
-        }
+        public IActionResult Index()
+    {
 
-        // 
-        // GET: /HelloWorld/Welcome/ 
-
-        public string Welcome()
-        {
-            return "This is the Welcome action method...";
-        }
+    return View ();
+    
+    }
+        
     }
 }
